@@ -1,0 +1,37 @@
+Precedence refers to the order in which operators are evaluated when multiple operators are present 
+in an expression. Operators with higher precedence are executed first. For example, in the expression 3 + 5 * 2, 
+multiplication (*) has higher precedence than addition (+), so the multiplication is performed first
+
+Ex:
+const result = 3 + 5 * 2;  // The result will be 13, not 16 (if addition had 
+higher precedence)
+
+Associativity refers to the order in which operators of the same precedence are evaluated. Some operators 
+associate left to right, meaning they are evaluated from left to right. Others associate right to left, meaning they 
+are evaluated from right to left.
+
+Ex:
+const result = 10 + 5 + 2;  // The result will be 17 (evaluated as (10 + 5) + 2)
+
+Understanding precedence and associativity is important for several reasons:
+----------------------------------------------------------------------------
+
+1.Order of Precedence Importance:
+
+Understanding the hierarchy of operators ensures accurate expression evaluation, avoiding errors or unintended outcomes.
+It determines which operations are performed first when multiple operations are present in an expression.
+
+2.Simplified Code Maintenance:
+
+Knowing operator precedence and associativity helps developers craft code that functions as intended, making it more manageable and easier to comprehend.
+It assists in writing complex expressions in a way that's clear and aligned with the desired behavior of the program.
+
+3.Debugging Aid:
+
+In scenarios where unexpected results occur, comprehension of operator precedence and associativity assists in diagnosing and rectifying issues swiftly.
+It aids in identifying the specific order of operations that led to unexpected outcomes.
+
+4.Optimizing Code Efficiency:
+
+Leveraging operator precedence enables the creation of code without unnecessary parentheses, streamlining the expression without compromising clarity.
+By utilizing precedence rules effectively, computations become more efficient, resulting in optimized code performance

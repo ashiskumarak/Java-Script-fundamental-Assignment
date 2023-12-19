@@ -1,0 +1,77 @@
+Arithmetic Operators:
+Arithmetic operators are used to perform arithmetic calculations on numbers.
+Example:
+
+let a = 10;
+let b = 5;
+
+// Addition
+let sum = a + b; // Result: 15
+
+// Subtraction
+let difference = a - b; // Result: 5
+
+// Multiplication
+let product = a * b; // Result: 50
+
+// Division
+let quotient = a / b; // Result: 2
+
+// Modulus (Remainder)
+let remainder = a % b; // Result: 0 (since 10 is completely divisible by 5)
+----------------------------------------------------------------------------------------
+
+Assignment Operators:
+Assignment operators are used to assign values to variables.
+Example:
+let x = 10;
+
+// Assigning a new value using an assignment operator
+x += 5; // Equivalent to: x = x + 5; // Result: 15
+
+let y = 20;
+y -= 8; // Equivalent to: y = y - 8; // Result: 12
+
+-------------------------------------------------------------------------------
+
+Comparison Operators:
+Comparison operators are used to compare values. They return a boolean value (true or false).
+Example:
+let p = 10;
+let q = 5;
+
+// Equal to
+console.log(p === q); // Result: false
+
+// Not equal to
+console.log(p !== q); // Result: true
+
+// Greater than
+console.log(p > q); // Result: true
+
+// Less than
+console.log(p < q); // Result: false
+
+// Greater than or equal to
+console.log(p >= q); // Result: true
+
+// Less than or equal to
+console.log(p <= q); // Result: false
+
+------------------------------------------------------------------------------------
+
+Logical Operators:
+Logical operators are used to perform logical operations and return boolean values.
+Example:
+let isTrue = true;
+let isFalse = false;
+
+// AND (&&) operator - Returns true if both operands are true
+console.log(isTrue && isFalse); // Result: false
+
+// OR (||) operator - Returns true if at least one operand is true
+console.log(isTrue || isFalse); // Result: true
+
+// NOT (!) operator - Returns the opposite of the operand's boolean value
+console.log(!isTrue); // Result: false
+console.log(!isFalse); // Result: true
